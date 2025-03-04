@@ -1,4 +1,4 @@
-# RAG Challenge - FTS + Checklist's w/out embedding's
+# RAG Challenge - Solution V1
 
 A comprehensive system for analyzing company annual reports using NLP and semantic search to answer complex questions.
 
