@@ -28,13 +28,13 @@ The following diagram illustrates the main workflow of the Annual Report Analyze
 
 ```
 ┌─────────────┐     ┌───────────────────┐     ┌──────────────────────┐
-│  Questions  │────▶│ Question Analysis │────▶│  Company & Domain    │
+│  Questions  │────▶│ Question Analysis │───▶│  Company & Domain    │
 │   Input     │     │      (LLM)        │     │  Identification      │
 └─────────────┘     └───────────────────┘     └──────────┬───────────┘
                                                          │
                                                          ▼
 ┌─────────────────────┐     ┌───────────────┐     ┌──────────────────┐
-│  Answer Formulation │◀────│ Data Analysis │◀────│ Document Search  │
+│  Answer Formulation │◀────│ Data Analysis │◀───│ Document Search  │
 │       (LLM)         │     │     (LLM)     │     │   (OpenSearch)   │
 └─────────┬───────────┘     └───────────────┘     └──────────────────┘
           │
