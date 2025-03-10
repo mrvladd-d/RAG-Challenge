@@ -224,10 +224,4 @@ The Annual Report Analyzer could be enhanced with:
 6. **Multi-Document Reasoning**: Enhance the LLM's ability to reason across multiple documents and pages to answer complex questions that span different sections of the annual report.
 7. **User Feedback Integration**: Add a mechanism to incorporate user feedback to improve answer quality over time.
 
-## License
 
-[Specify your license here]
-
-## Contact
-
-[Your contact information]
