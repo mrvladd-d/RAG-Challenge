@@ -133,7 +133,6 @@ When processing a question, the system follows these steps:
 
 1. **Company and Domain Identification**: The question is analyzed by the LLM to identify the company, the domain, and three diverse search queries.
 
-   - This happens in `identify_company_and_domain()` in `llm_service.py`
    - The LLM generates variations of search terms to increase the chance of finding relevant information
 
 2. **Question Type Handling**:
@@ -149,7 +148,7 @@ When processing a question, the system follows these steps:
 
 4. **Data Extraction**:
 
-   - Domain-specific extractors in `llm_service.py` parse each page's content
+   - Domain-specific extractors parse each page's content
    - Financial data, business operations, corporate actions, and leadership information are extracted into structured formats
    - A caching mechanism avoids redundant processing of the same queries
 
